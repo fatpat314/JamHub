@@ -1,5 +1,28 @@
 .bg_img {
     display: flex: run-in;
-    background-image: url("piano.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
 
+    background-image: url("keyboard.jpg");
+
+}
+.navbar-nav {
+
+  text-align: center;
+  > li {
+    float: none;
+    display: inline-block;
+  }
+}
+
+.home_bg_img{
+    background-image: url("piano.jpg");
+    background-repeat: no-repeat;
+}
+.center {
+  display: block;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
 }
