@@ -21,5 +21,11 @@ def sign_up():
 def profile():
     return render_template('profile.html', profile=profile)
 
+@app.route('/about')
+def about():
+    return render_template('about.html', about=about)
+
 if __name__ == '__main__':
     app.run(debug=True)
+
+    
