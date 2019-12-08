@@ -1,30 +1,20 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1>sign in</h1>
+
     <div class="hero-background-img jumbotron text-center text-white bg-secondary">
             <h1>Sign in to Sample Hub</h1>
             <br>
         <div class="account-form">
         <div class="form jumbotron text-center text-dark bg-white container" style="width: 50vh">
 
-
-
             <input type="email" name="email" id="email" class="focus text-field" placeholder="Email" tabindex="1" size="45" autocomplete="off">
             <br>
             <br>
-            <!--<form action='/results' method='GET'>
-                Email
-                <input type='text' name='password'>-->
-
 
             <input type="password" name="password" id="email" class="focus text-field" placeholder="Password" size="45" tabindex="1" autocomplete="off">
             <br>
 
-
-            <!--<form action='/results' method='GET'>
-                Password
-                <input type='text' name='password'>-->
                 <br>
             <input type="checkbox" value="Keep signed in"> Keep me signed in on this computer
 
@@ -32,28 +22,9 @@
 
         </div>
 
-
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col-xsm-6">
-              Forgot password?
-            </div>
-            <div class="col-sm-2">
-              Don't have an account?
-            </div>
-            <div class="col-xsm-2">
-              Privacy Policy
-            </div>
-          </div>
-        </div> -->
         <a class="text-white" href="#">Forgot password?</a> &middot; <a class="text-white" href="/sign-up">Don't have an account?</a> &middot; <a class="text-white" href="#">Privacy Policy</a>
 
     <br>
     <br>
-
-        <div class="text">
-        <a class="text-white" href="#">Have an issue with 2-factor authentication?</a>
-        </div>
-
 
 {% endblock %}

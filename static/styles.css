@@ -68,13 +68,13 @@
 /* Bottom right text */
 .bottom-right {
   position: absolute;
-  bottom: 4px;
+  bottom: -16px;
   right: 248px;
 }
 
 .Bio {
   position: absolute;
-  bottom: 32px;
+  bottom: 128px;
   right: 248px;
 }
 
